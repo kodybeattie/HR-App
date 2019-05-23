@@ -1,0 +1,46 @@
+Functionality
+==============
+create an employee
+update an employee's info
+Deactivate an employee
+read an employee's information
+
+Screens
+===============
+add employee
+  Username and Password
+    - username and password
+
+  Personal Information
+    - first name, last name,
+      birth date, home address,
+      home phone, cell phone, email, active
+
+  Emergency Contact Details
+    - emergency contact name, relation, phone
+
+edit employee
+  Username and Password
+    - username and password
+
+  Personal Information
+    - first name, last name,
+      birth date, home address,
+      home phone, cell phone, email, active
+
+  Emergency Contact Details
+    - emergency contact name, relation, phone
+
+View summary of employee info
+  - username
+  - first name
+  - last name
+  - birth date
+  - home address
+  - home phone
+  - cell phone
+  - email
+  - active
+  - emergency contact name
+           - relation
+           - phone

@@ -1,0 +1,17 @@
+- employee
+  - employee id
+  - username
+  - password
+  - first name
+  - last name
+  - birth date
+  - home address
+  - phone number
+  - email address
+  - active
+
+- employee emergency contact
+  - emergency contact id
+  - emergency contact name
+  - emergency contact relation
+  - emergency contact phone
