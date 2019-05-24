@@ -61,7 +61,7 @@ namespace HRApp {
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
         public static void Main() {
-            SplashScreen splashScreen = new SplashScreen("splashscreen1.png");
+            SplashScreen splashScreen = new SplashScreen("splashscreen.png");
             splashScreen.Show(true);
             HRApp.App app = new HRApp.App();
             app.InitializeComponent();
