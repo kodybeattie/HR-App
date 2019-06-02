@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/splashscreen.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("peepsdb.mdf")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("peepsdb_log.ldf")]
 
 
