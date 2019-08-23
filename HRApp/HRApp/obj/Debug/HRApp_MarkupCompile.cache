@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\App.xaml
-2260741743
+6-150981403
 2506849803
-101320444209
+11527794036
 131569487696
-Dashboard.xaml;Login.xaml;
+AddEmployee.xaml;Dashboard.xaml;EditEmployee.xaml;Login.xaml;test.xaml;ViewAllEmployees.xaml;
 splashscreen.png
-True
+False
 

@@ -9,8 +9,9 @@
     <Grid Margin="0,0,3.8,0.2">
         <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="23" Margin="161,53,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="23" Margin="161,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="151,132,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="151,132,0,0" VerticalAlignment="Top" Width="75" Click="BtnLogin_Click"/>
         <Label x:Name="lblUsername" Content="Username" HorizontalAlignment="Left" Margin="91,49,0,0" VerticalAlignment="Top" Height="26"/>
         <Label x:Name="lblPassword" Content="Password" HorizontalAlignment="Left" Margin="96,90,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblError" Content="" HorizontalAlignment="Left" Margin="161,171,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.128,-0.233"/>
     </Grid>
 </Window>

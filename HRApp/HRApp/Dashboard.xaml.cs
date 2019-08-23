@@ -19,9 +19,32 @@ namespace HRApp
     /// </summary>
     public partial class Dashboard : Window
     {
+
+        //test newTest = new test();
+        //fmeContent.Content = newTest;
+
         public Dashboard()
         {
             InitializeComponent();
+            stpNav.Height = this.Height;
+        }
+
+        private void btnAddEmployee_Click(object sender, RoutedEventArgs e)
+        {
+            AddEmployee newAddEmployeeForm = new AddEmployee();
+            fmeContent.Content = newAddEmployeeForm;
+        }
+
+        private void btnEditEmployee_Click(object sender, RoutedEventArgs e)
+        {
+            EditEmployee newEditEmployeeForm = new EditEmployee();
+            fmeContent.Content = newEditEmployeeForm;
+        }
+
+        private void btnViewAll_Click(object sender, RoutedEventArgs e)
+        {
+            ViewAllEmployees newViewAllEmployeesForm = new ViewAllEmployees();
+            fmeContent.Content = newViewAllEmployeesForm;
         }
     }
 }
