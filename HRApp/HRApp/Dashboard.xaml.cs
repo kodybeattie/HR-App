@@ -31,20 +31,20 @@ namespace HRApp
 
         private void btnAddEmployee_Click(object sender, RoutedEventArgs e)
         {
-            AddEmployee newAddEmployeeForm = new AddEmployee();
-            fmeContent.Content = newAddEmployeeForm;
+            AddEmployeeForm newAddEmployeeForm = new AddEmployeeForm();
+            this.Content = newAddEmployeeForm;
         }
 
         private void btnEditEmployee_Click(object sender, RoutedEventArgs e)
         {
-            EditEmployee newEditEmployeeForm = new EditEmployee();
-            fmeContent.Content = newEditEmployeeForm;
+            EditEmployeeForm newEditEmployeeForm = new EditEmployeeForm();
+            this.Content = newEditEmployeeForm;
         }
 
         private void btnViewAll_Click(object sender, RoutedEventArgs e)
         {
-            ViewAllEmployees newViewAllEmployeesForm = new ViewAllEmployees();
-            fmeContent.Content = newViewAllEmployeesForm;
+            ViewAllEmployeesForm newViewAllEmployeesForm = new ViewAllEmployeesForm();
+            this.Content = newViewAllEmployeesForm;
         }
     }
 }

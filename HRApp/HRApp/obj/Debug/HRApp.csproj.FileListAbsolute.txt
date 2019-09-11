@@ -18,11 +18,6 @@ C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\Login.baml
 C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\bin\Debug\PeepsDB.mdf
 C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\bin\Debug\PeepsDB_log.ldf
 C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\HRApp_Content.g.cs
-C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\test.g.cs
-C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\test.baml
-C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\AddEmployee.g.cs
-C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\EditEmployee.g.cs
-C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\ViewAllEmployees.g.cs
-C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\AddEmployee.baml
-C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\EditEmployee.baml
-C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\ViewAllEmployees.baml
+C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\AddEmployeeForm.g.cs
+C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\AddEmployeeForm.baml
+C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\Themes\Generic.baml
