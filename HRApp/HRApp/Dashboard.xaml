@@ -7,17 +7,11 @@
         mc:Ignorable="d"
         Title="Dashboard" Height="450" Width="800">
     <Grid>
-        <DockPanel HorizontalAlignment="Left" Height="268" LastChildFill="False" VerticalAlignment="Top" Width="132" Margin="0,1,0,0">
-            <StackPanel x:Name="stpNav" HorizontalAlignment="Left" Height="420" VerticalAlignment="Top" Width="132" Background="#FF7F3232">
-                <Button x:Name="btnAddEmployee" Content="Add Employee" Click="btnAddEmployee_Click"/>
-                <Button x:Name="btnEditEmployee" Content="Edit Employee" Click="btnEditEmployee_Click"/>
-                <Button x:Name="btnViewAll" Content="View All Employees" Click="btnViewAll_Click"/>
-                <Button Content="Button"/>
-            </StackPanel>
-        </DockPanel>
-        <DockPanel HorizontalAlignment="Left" Height="420" LastChildFill="False" Margin="137,0,-0.4,0" VerticalAlignment="Top" Width="657">
- 
-        </DockPanel>
-
+        <Menu HorizontalAlignment="Left" Height="165" VerticalAlignment="Top" Width="100">
+            <MenuItem Header="Add Employee" Click="mnuAddEmployee_Click"/>
+            <MenuItem Header="Edit Employee" Click="mnuEditEmployee_Click"/>
+            <MenuItem Header="View All Employees" Click="mnuViewAllEmployees_Click"/>
+        </Menu>
+        <DockPanel x:Name="dkpContent" HorizontalAlignment="Left" Height="400" LastChildFill="False" Margin="105,10,0,0" VerticalAlignment="Top" Width="679"/>
     </Grid>
 </Window>

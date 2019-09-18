@@ -26,25 +26,25 @@ namespace HRApp
         public Dashboard()
         {
             InitializeComponent();
-            stpNav.Height = this.Height;
         }
 
-        private void btnAddEmployee_Click(object sender, RoutedEventArgs e)
+        private void mnuAddEmployee_Click(object sender, RoutedEventArgs e)
         {
             AddEmployeeForm newAddEmployeeForm = new AddEmployeeForm();
-            this.Content = newAddEmployeeForm;
+            dkpContent.Children.Add(newAddEmployeeForm);
         }
-
-        private void btnEditEmployee_Click(object sender, RoutedEventArgs e)
+        
+        private void mnuEditEmployee_Click(object sender, RoutedEventArgs e)
         {
             EditEmployeeForm newEditEmployeeForm = new EditEmployeeForm();
-            this.Content = newEditEmployeeForm;
+            dkpContent.Children.Add(newEditEmployeeForm);
         }
 
-        private void btnViewAll_Click(object sender, RoutedEventArgs e)
+        private void mnuViewAllEmployees_Click(object sender, RoutedEventArgs e)
         {
+            dkpContent.
             ViewAllEmployeesForm newViewAllEmployeesForm = new ViewAllEmployeesForm();
-            this.Content = newViewAllEmployeesForm;
+            dkpContent.Children.Add(newViewAllEmployeesForm);
         }
     }
 }

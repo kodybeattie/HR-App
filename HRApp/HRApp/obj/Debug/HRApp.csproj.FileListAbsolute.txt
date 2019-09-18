@@ -21,3 +21,7 @@ C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\HRApp_Content.g.cs
 C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\AddEmployeeForm.g.cs
 C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\AddEmployeeForm.baml
 C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\Themes\Generic.baml
+C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\EditEmployeeForm.g.cs
+C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\ViewAllEmployeesForm.g.cs
+C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\EditEmployeeForm.baml
+C:\Users\Kotty\Documents\GitHub\HR-App\HRApp\HRApp\obj\Debug\ViewAllEmployeesForm.baml
