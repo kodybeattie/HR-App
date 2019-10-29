@@ -24,5 +24,43 @@ namespace HRApp
         {
             InitializeComponent();
         }
+
+        private void BtnAddEmployee_Click(object sender, RoutedEventArgs e)
+        {
+
+            SqlConnection cnn;
+            cnn = new SqlConnection(Globals.CONNECTION_STRING);
+            cnn.Open();
+
+            SqlDataReader reader;
+            string sql, Output = "";
+            sql = "SELECT Username, Password FROM Employee WHERE Username = @Username and Password = @Password";
+
+            SqlCommand command = new SqlCommand(sql, cnn);
+            SqlParameter username = new SqlParameter();
+            SqlParameter password = new SqlParameter();
+
+            username.ParameterName = "@Username";
+            username.Value = txtUsername.Text;
+            command.Parameters.Add(username);
+
+            password.ParameterName = "@Password";
+            password.Value = txtPassword.Text;
+            command.Parameters.Add(password);
+
+            reader = command.ExecuteReader();
+            if (reader.Read())
+            {
+                //MessageBox.Show(reader.GetValue(0).ToString());
+                Dashboard newDash = new Dashboard();
+                newDash.Show();
+                this.Close();
+            }
+            else
+            {
+                lblError.Content = "No User Found";
+            }
+            cnn.Close();
+        }
     }
 }

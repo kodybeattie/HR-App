@@ -19,10 +19,6 @@ namespace HRApp
     /// </summary>
     public partial class Dashboard : Window
     {
-
-        //test newTest = new test();
-        //fmeContent.Content = newTest;
-
         public Dashboard()
         {
             InitializeComponent();
@@ -30,19 +26,21 @@ namespace HRApp
 
         private void mnuAddEmployee_Click(object sender, RoutedEventArgs e)
         {
+            dkpContent.Children.Clear();
             AddEmployeeForm newAddEmployeeForm = new AddEmployeeForm();
             dkpContent.Children.Add(newAddEmployeeForm);
         }
         
         private void mnuEditEmployee_Click(object sender, RoutedEventArgs e)
         {
+            dkpContent.Children.Clear();
             EditEmployeeForm newEditEmployeeForm = new EditEmployeeForm();
             dkpContent.Children.Add(newEditEmployeeForm);
         }
 
         private void mnuViewAllEmployees_Click(object sender, RoutedEventArgs e)
         {
-            dkpContent.
+            dkpContent.Children.Clear();
             ViewAllEmployeesForm newViewAllEmployeesForm = new ViewAllEmployeesForm();
             dkpContent.Children.Add(newViewAllEmployeesForm);
         }

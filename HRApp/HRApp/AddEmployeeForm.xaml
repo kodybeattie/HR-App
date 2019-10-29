@@ -6,8 +6,31 @@
              xmlns:local="clr-namespace:HRApp"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="White">
-        <Label Content="A label" HorizontalAlignment="Left" Margin="280,97,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="350,97,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+    <Grid Background="White" Margin="98,97,85,97.6">
+        <Label x:Name="lblUsername" Content="Username:" HorizontalAlignment="Left" Margin="52,10,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lblPassword" Content="Password:" HorizontalAlignment="Left" Margin="57,40,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lblConfPassword" Content="Confirm Password:" HorizontalAlignment="Left" Margin="2,68,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lblFirstName" Content="First Name:" HorizontalAlignment="Left" Margin="47,95,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lblLastName" Content="Last Name:" HorizontalAlignment="Left" Margin="52,125,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lblDepartment" Content="Department:" HorizontalAlignment="Left" Margin="303,126,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lblRole" Content="Role:" HorizontalAlignment="Left" Margin="351,97,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lblPhoneNumber" Content="Phone Number:" HorizontalAlignment="Left" Margin="23,159,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lblPhoneEXT" Content="Ext." HorizontalAlignment="Left" Margin="267,161,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lblEmail" Content="Email:" HorizontalAlignment="Left" Margin="344,11,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lblHourlyRate" Content="Hourly Rate:" HorizontalAlignment="Left" Margin="304,67,0,0" VerticalAlignment="Top" FontSize="14" Width="86"/>
+        <Label x:Name="lblHours" Content="Hours Per Week:" HorizontalAlignment="Left" Margin="279,40,0,0" VerticalAlignment="Top" FontSize="14" Height="27"/>
+        <PasswordBox x:Name="pwdBox" HorizontalAlignment="Left" Margin="130,47,0,0" VerticalAlignment="Top" Width="136"/>
+        <PasswordBox x:Name="confirmPwdBox" HorizontalAlignment="Left" Margin="130,74,0,0" VerticalAlignment="Top" Width="136"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="23" Margin="130,129,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="136"/>
+        <TextBox x:Name="txtPhoneEXT" HorizontalAlignment="Left" Height="23" Margin="295,164,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="45"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="389,14,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="212"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="23" Margin="130,14,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="136"/>
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Height="23" Margin="130,99,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="136"/>
+        <ComboBox x:Name="cbxRole" HorizontalAlignment="Left" Margin="389,100,0,0" VerticalAlignment="Top" Width="212"/>
+        <ComboBox x:Name="cbxDepartment" HorizontalAlignment="Left" Margin="389,131,0,0" VerticalAlignment="Top" Width="212"/>
+        <TextBox x:Name="txtPhoneNumber" HorizontalAlignment="Left" Height="23" Margin="130,164,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="136"/>
+        <TextBox x:Name="txtHourlyRate" HorizontalAlignment="Left" Height="23" Margin="389,71,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="212"/>
+        <TextBox x:Name="txtHoursPerWeek" HorizontalAlignment="Left" Height="23" Margin="389,43,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="212"/>
+        <Button x:Name="btnAddEmployee" Content="Add Employee" HorizontalAlignment="Left" Margin="253,213,0,0" VerticalAlignment="Top" Width="122" Height="32" Click="BtnAddEmployee_Click"/>
     </Grid>
 </UserControl>
